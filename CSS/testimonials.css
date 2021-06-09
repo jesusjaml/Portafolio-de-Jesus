@@ -1,0 +1,30 @@
+.testimonials-intro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+    padding-block-end: 80px;
+}
+
+.testimonials-intro p {
+    font: var(--testimonials);
+}
+
+.testimonials-intro span.headline5 {
+    font: var(--headline5);
+}
+
+.testimonials-button  {
+    inline-size: 80px;
+    block-size: 80px;
+    margin: 0 auto;
+    background-image: url(/Assets/images/arrow-down.png);
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .testimonials-intro p {
+        margin: auto;
+        max-inline-size: 700px;
+    }
+}

@@ -1,0 +1,22 @@
+.header {
+    /* Para que el header nos siga al dar scroll-down */
+    position: sticky;
+    /* Para que empiece desde arriba */
+    top: 0;
+    backdrop-filter: blur(10px);
+}
+
+.header-content {
+    display: flex;
+    /* Alinea los componentes en el eje principal */
+    justify-content: space-between;
+    /* Alinea los elementos en el eje transversal (horizontal;) */
+    align-items: center;
+    block-size: 80px;
+    margin: 20px 0 0 0;
+    
+}
+
+.header img {
+    cursor: pointer;
+}

@@ -1,0 +1,77 @@
+.footer-logo {
+    display: none;
+    cursor: pointer;
+    inline-size: 40px;
+}
+
+.footer-social {
+    justify-content: center;
+}
+
+.footer-description {
+    text-align: center;
+    color: var(--white);
+}
+
+.footer-description p.footer-description-copyright {
+    margin-block-start: 8px;
+    margin-block-end: 24px;
+}
+
+.footer-description span.heart-icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    /* «vertical-align«, que nos va a permitir que el texto se empiece a escribir en la parte de arriba de la imagen, desde el centro o en la parte inferior. */
+    /* vertical-align: text-top;
+    vertical-align: middle;
+    vertical-align: text-bottom; */
+    vertical-align: middle;
+    background-image: url(/Assets/images/icon-heart.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.jesus-contrast {
+    color: var(--green);
+    font-weight: bold;
+}
+
+@media  screen and (min-width:768px) {
+    .footer-content {
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+        margin-block-end: 40px;
+        margin-block-start: 40px;
+    }
+    
+    .footer-logo {
+        display: block;
+    }
+
+    .footer-social {
+        order: 1;
+        padding-block-end: 0px;
+    }
+
+    .footer-description p.footer-description-copyright {
+        margin-block-start: 0;
+        margin-block-end: 0px;
+    }
+}
+
+@media  screen and (min-width:1024px) {
+    .footer-description {
+        display: flex;
+        gap: 8px;
+    }
+}
+    
+    
+@media  screen and (min-width:1140px) {
+    .footer-description {
+        margin: 0 0 0 202px;
+    } 
+}

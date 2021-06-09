@@ -1,0 +1,43 @@
+.scale-hover {
+    transition: transform .2s;
+}
+
+.scale-hover:hover {
+    transform: scale(1.3);
+}
+
+.hero-social a:hover {
+    animation: bounce 0.5s linear
+}
+@keyframes bounce {
+    20%{
+        transform: translatey(-0.6rem);
+    }
+    40%{
+        transform: translatey(0rem);
+    }
+    80%{
+        transform: translatey(-0.2rem);
+    }
+    100%{
+        transform: translatey(0rem);
+    }
+}
+
+.button:hover {
+    animation: bounce 0.5s linear
+}
+@keyframes bounce {
+    20%{
+        transform: translatey(-0.6rem);
+    }
+    40%{
+        transform: translatey(0rem);
+    }
+    80%{
+        transform: translatey(-0.2rem);
+    }
+    100%{
+        transform: translatey(0rem);
+    }
+}

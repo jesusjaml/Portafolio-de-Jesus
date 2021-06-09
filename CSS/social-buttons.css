@@ -1,0 +1,13 @@
+a.social {
+    /* con display: inline-block; arreglamos la subreposicion del bloque de iconos = en linea y bloque */
+    display: inline-block;
+    padding: 10px;
+    border-radius: 4px;
+    background: var(--white);
+    border: 2px solid var(--purple);
+}
+
+/* Solucionar el espaciado que se genera al ubicar una imagen dentro de un elemento al intentar alinearse con el baseline */
+a.social img {
+    vertical-align: middle;
+}
